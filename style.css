@@ -1,13 +1,36 @@
-.block-centralizer {
-    margin: 0 auto;
-    text-align: justify;
-}
-.picture {
-    border-radius: 15px;
-    border-style: solid;
-}
 body {
+    margin: 0;
     font-family: 'Outfit', sans-serif;
     background-image: url();
     color: #19282e;
 }
+.header{
+    display: inline-block;
+    margin-left: 0;
+    text-align: right;
+    background-image: url("images/textures/navy-blue.jpg");
+    background-position: center;
+    padding: 100px;
+    left: 200px;
+}
+.picture {
+    display: inline-block;
+    text-align: end;
+    width: 200px;
+    border-radius: 15px;
+    border-style: solid;
+}
+.footer {
+    display: flex;
+    background-color: rgba(204, 204, 204, 0.534);
+    border-top: 3px outset rgb(170, 170, 170);
+}
+.links-container {
+    display: flex;
+    justify-content: right;
+}
+div.links-container img {
+    margin: 1.5em;
+    align-items: center;
+}
+    

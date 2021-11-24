@@ -1,0 +1,13 @@
+.block-centralizer {
+    margin: 0 auto;
+    text-align: justify;
+}
+.picture {
+    border-radius: 15px;
+    border-style: solid;
+}
+body {
+    font-family: 'Outfit', sans-serif;
+    background-image: url();
+    color: #19282e;
+}
